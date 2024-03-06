@@ -10,7 +10,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t lokil5762049/2febimg:v1 .'
+                    sh 'docker build -t lokil5762049/pphproject:v2 .'
                     sh 'docker images'
                 }
             }
